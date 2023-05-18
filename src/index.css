@@ -1,10 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Nunito+Sans:wght@300;400;600;800&family=Public+Sans:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.active{
+  @apply text-green text-[16px] font-[600]
+}
+.header1 {
+  @apply text-[40px] font-[600]
+}
+
+.header2 {
+  @apply text-[36px] font-[600]
+}
+
+.header3 {
+  @apply text-[32px] font-[600]
+}
+
+.header4 {
+  @apply text-[24px] font-[600]
+}
+
+.header5 {
+  @apply text-[14px] font-[600]
+}
+.body_xl {
+  @apply text-[30px] font-[600]
+}
+.body_xl2 {
+  @apply text-[24px] font-[600]
+}
+.body_L_400 {
+  @apply text-[20px] font-[400]
+}
+.body_L_600 {
+  @apply text-[20px] font-[600]
+}
+.body_L_500 {
+  @apply text-[20px] font-[500]
+}
+.body_Regu_600 {
+  @apply text-[16px] font-[600]
+}
+
+.body_Regu_500 {
+  @apply text-[16px] font-[500]
+}
+
+.body_Regu_400 {
+  @apply text-[16px] font-[400]
+}
+
+.body_sm_600 {
+  @apply text-[14px] font-[600]
+}
+
+.body_sm_500 {
+  @apply text-[14px] font-[500]
+}
+
+.body_sm_400 {
+  @apply text-[14px] font-[400]
+}
+
+.body_tiny_600 {
+  @apply text-[12px] font-[600]
+}
+
+
+.body_tiny_500 {
+  @apply text-[12px] font-[500]
+}
+
+.body_tiny_400 {
+  @apply text-[12px] font-[400]
+}
+ 
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+
+
+  font-family: 'Inter', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Public Sans', sans-serif;
+
 }
 
 code {
