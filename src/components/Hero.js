@@ -12,21 +12,21 @@ function Hero() {
             <div className="search-mobile order-first w-full lg:hidden">
                 <Search />
             </div>
-            <div className="info flex flex-col   lg:py-16 2xl:py-28 max-w-[50%]">
+            <div className="info flex flex-col  lg:py-16 2xl:py-28 lg:max-w-[50%]">
 
                 <h4 className='header4 text-green pt-4 relative lg:text-left lg:mb-[12px] '>START TO SUCCESS
                     <span className='absolute left-8 top-0 lg:left-0 lg:-top-8 w-6'><img src={star} alt="" /></span>
                     <span className='hidden lg:flex absolute top-0 right-[220px]'><img src={Ellipse} alt="" /></span>
                 </h4>
 
-                <div className="mainText ">
-                    <p className='body_xl2 text-center lg:text-5xl text-Herogreen lg:text-left lg:leading-[60px] lg:mb-[12px] '>Access To <span className='text-green relative'>5000+
+                <div className="mainText  ">
+                    <p className='body_xl2 mb-4 text-center lg:text-5xl text-Herogreen lg:text-left lg:leading-[60px] lg:mb-[12px] '>Access To <span className='text-green relative'>5000+
                         <span className='absolute inset-x-0 -bottom-[6px]'><img src={vec} alt="" /></span>
                     </span> Courses
                         from <span className='text-green relative'>300
                             <span className='absolute inset-x-0 -bottom-[6px]'><img src={vec} alt="" /></span>
                         </span> Instructors & Institutions</p>
-                    <p className='header5 text-grey lg:text-left lg:mb-[20px] ' >Various versions have evolved over the years, sometimes by accident,</p>
+                    <p className='header5 px-4  text-grey lg:text-left lg:mb-[20px] lg:px-0' >Various versions have evolved over the years, sometimes by accident,</p>
                 </div>
 
                 <div className="search hidden lg:block w-[90%]">
