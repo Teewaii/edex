@@ -17,7 +17,7 @@ function CoursesCard() {
             </div>
             <div className="text border-gray-200 border-b-[1px] pb-4">
                 <h4 className='body_L_400' >Various versions have evolved daf</h4>
-                <span className='ratings flex gap-2  '>
+                <span className='ratings flex gap-2 mt-2 '>
                     {starIcons}
                     <span className='body_L_500 text-grey' >(10)</span>
                 </span>
