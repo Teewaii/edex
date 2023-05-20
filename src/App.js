@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Modal from './components/Modal';
+import Popular from './components/Popular';
 export const ToggleContext = createContext(" ")
 
 
@@ -29,6 +30,8 @@ function App() {
       <Modal
         toggle={toggle}
         handleToggle={handleToggle} />
+      <Popular />
+      
     </div>
   );
 }

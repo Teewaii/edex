@@ -10,6 +10,7 @@ module.exports = {
         'Darkgreen': '#1A906B',
         'Herogreen': '#06241B',
         'Hovergreen': '#E9F8F3',
+        'Popgreen': '#E9F8F3',
         'yellow': '#FFC27A',
         'Darkyellow': '#CAA67B',
         'grey': '#889099',

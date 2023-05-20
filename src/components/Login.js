@@ -8,7 +8,7 @@ function Login() {
                 <LockClosedIcon className='stroke-green group-hover:stroke-white' />
                 {/* <Image src={lock} className='fill-white' width={18} height={18} alt='lock_icon' /> */}
             </span>
-            <p className='text-[14px] text-grey lg:text-[16px] group-hover:text-white ' >Login</p>
+            <p className='text-[18px] text-grey group-hover:text-white lg:text-[15px] xl:text-[19px] lg:gap-[1rem]' >Login</p>
         </div>
     )
 }

@@ -16,10 +16,10 @@ export default function Navbar({ toggle, handleToggle }) {
     // const { toggle, handleToggle } = useContext(ToggleContext)
 
     return (
-        <nav className=' border-b-[1px] border-gray-50   relative'>
+        <nav className=' border-b-[1px] border-gray-50 relative'>
             <div className="container ">
-                <div className="nav_container py-[14px] flex items-center justify-between lg:py-2 lg:pt-4 relative">
-                    <div className="logo w-[80px] lg:w-[100px] cursor-pointer  ">
+                <div className="nav_container py-[14px] flex items-center justify-between lg:py-2 md:mt-6 relative">
+                    <div className="logo w-[90px] md:w-[120px] cursor-pointer  ">
                         <img src={logo} alt='logo' />
                     </div>
 
@@ -30,10 +30,10 @@ export default function Navbar({ toggle, handleToggle }) {
                             // Mobile Navs
                             <ul className="flex flex-col absolute top-20 w-full inset-x-0 py-4 gap-2 bg-green rounded-md lg:hidden  z-10 "  >
                                 {navs.map((navi, index) => (
-                                    <li key={index} className='text-[14px] text-white border-b-2 border-Darkgreen border-opacity-25 pb-2 last:border-b-0 last:pb-0'>{navi}</li>
+                                    <li key={index} className='text-[18px] text-white border-b-2 border-Darkgreen border-opacity-25 py-[10px] last:border-b-0 hover:bg-yellow hover:text-white'>{navi}</li>
                                 ))}
 
-                                <div className="absolute top-[230px]  flex  gap-8 justify-center inset-x-0 w-full py-4 rounded-md bg-gray-100  lg:hidden">
+                                <div className="absolute top-[325px]  flex  gap-8 justify-center inset-x-0 w-full py-4 rounded-md bg-gray-100  lg:hidden">
                                     {/* <div className={toggle ? "absolute top-[320px]  flex  gap-8 justify-center inset-x-0 w-full py-4 rounded-md bg-gray-100 " : " users_desktop flex gap-6"}> */}
 
                                     <Login />
@@ -42,9 +42,9 @@ export default function Navbar({ toggle, handleToggle }) {
                             </ul> :
 
                             // Desktop Navs
-                            <ul className="hidden lg:flex gap-8 px-[24px] py-[12px] ">
+                            <ul className="hidden lg:flex gap-8 px-[24px] ">
                                 {navs.map((navi, index) => (
-                                    <li key={index} className='text-[16px] text-grey hover:text-black cursor-pointer '>{navi}</li>
+                                    <li key={index} className='text-[16px] text-grey hover:text-black cursor-pointer lg:text-[15px] xl:text-[19px] lg:gap-[1rem] hover:border-b-[3px] hover:border-green transition-all duration-200 ease-in-out '>{navi}</li>
                                 ))}
                             </ul>}
 
@@ -56,7 +56,7 @@ export default function Navbar({ toggle, handleToggle }) {
                     </div>
 
                     {/* Hamburger */}
-                    <div className="  hamburger w-8  z-10 lg:hidden"
+                    <div className="  hamburger w-9 md:w-12  z-10 lg:hidden"
                         onClick={handleToggle}
                     >
                         {toggle ? <Bars3Icon className=' text-green pointer-cursor ' /> : <XMarkIcon className=' text-green pointer-cursor' />}
