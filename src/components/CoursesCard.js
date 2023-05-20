@@ -10,9 +10,10 @@ function CoursesCard() {
     }
     return (
 
-        <div className='bg-white rounded-2xl p-3 md:p-4 pb-6'>
+        <div className='bg-white rounded-2xl p-3 md:p-4 pb-6 shadow-lg'>
+
             <div className="image flex flex-col mb-6 relative">
-                <span className='absolute text-lg font-extrabold top-4 left-4 bg-white opacity-50 py-2 px-3 rounded-md'>HTML</span>
+                <span className='absolute text-lg font-extrabold top-4 left-4 bg-white opacity-70 py-[5px] px-[12px] rounded-md'>HTML</span>
                 <img src={c1} alt="instructor_picture" />
             </div>
             <div className="text border-gray-200 border-b-[1px] pb-4">
