@@ -18,7 +18,7 @@ export default function Navbar({ toggle, handleToggle }) {
     return (
         <nav className=' border-b-[1px] border-gray-50 relative'>
             <div className="container ">
-                <div className="nav_container py-[14px] flex items-center justify-between lg:py-2 md:mt-6 relative">
+                <div className="nav_container py-[14px] flex items-center justify-between lg:py-2 relative">
                     <div className="logo w-[90px] md:w-[120px] cursor-pointer  ">
                         <img src={logo} alt='logo' />
                     </div>

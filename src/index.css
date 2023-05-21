@@ -15,6 +15,9 @@
 .header2 {
   @apply text-[36px] font-[600]
 }
+.over{
+@apply overflow-hidden
+}
 
 .header3 {
   @apply text-[32px] font-[600]
@@ -80,7 +83,23 @@
 }
  
 
+::-webkit-scrollbar {
+  width: 10px;
+  height:  5px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background:#D2F0E7;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #20B486;
+  border-radius: 10px;
+  
+}
 body {
   margin: 0;
   /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
