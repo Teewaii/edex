@@ -10,11 +10,11 @@ function CoursesCard({ title, desc, price, pix, reviewCount }) {
     }
     return (
 
-        <div className='bg-white rounded-2xl p-3 md:p-4 pb-6 shadow-lg'>
+        <div className='bg-white rounded-2xl p-3 md:p-4 pb-6 shadow-lg max-w-[300px]'>
 
             <div className="image flex flex-col mb-6 relative">
                 <span className='absolute text-md font-extrabold top-4 left-4 bg-white opacity-70 py-[5px] px-[12px] rounded-md'>{title}</span>
-                <img src={pix} alt="instructor_picture" className='h-[200px]' />
+                <img src={pix} alt="instructor_picture" className='h-[180px]' />
             </div>
             <div className="text border-gray-200 border-b-[1px] text-left pb-4">
                 <h4 className='body_L_400' >{desc}</h4>
