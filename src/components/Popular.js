@@ -50,8 +50,8 @@ function Popular() {
 
                 </div>
                 <div className="caret  mt-11 gap-4 flex justify-end  w-[90%] lg:w-[75%] lg:relative  ">
-                    <ChevronLeftIcon onClick={scrollLeft} className="w-10 text-green hover:text-white hover:bg-green border  rounded-full p-2 2xl:w-12 cursor-pointer" />
-                    <ChevronRightIcon onClick={scrollRight} className="w-10 text-green hover:text-white hover:bg-green border rounded-full p-2  2xl:w-12 cursor-pointer" />
+                    <ChevronLeftIcon onClick={scrollLeft} className="w-10 text-green hover:text-white hover:bg-green border-[1px] border-green  rounded-full p-2 2xl:w-12 cursor-pointer" />
+                    <ChevronRightIcon onClick={scrollRight} className="w-10 text-green hover:text-white hover:bg-green border-[1px] border-green rounded-full p-2  2xl:w-12 cursor-pointer" />
                 </div>
 
             </div>
