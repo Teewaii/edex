@@ -30,7 +30,7 @@ export default function Navbar({ toggle, handleToggle }) {
                             // Mobile Navs
                             <ul className="flex flex-col absolute top-20 w-full inset-x-0 py-4 gap-2 bg-green rounded-md lg:hidden  z-10 "  >
                                 {navs.map((navi, index) => (
-                                    <li key={index} className='text-[18px] text-white border-b-2 border-Darkgreen border-opacity-25 py-[10px] last:border-b-0 hover:bg-yellow hover:text-white'>{navi}</li>
+                                    <li key={index} className='text-[18px] text-white border-b-2 border-Darkgreen border-opacity-25 py-[10px] last:border-b-0 hover:bg-yellow hover:text-white '>{navi}</li>
                                 ))}
 
                                 <div className="absolute top-[325px]  flex  gap-8 justify-center inset-x-0 w-full py-4 rounded-md bg-gray-100  lg:hidden">
@@ -44,7 +44,7 @@ export default function Navbar({ toggle, handleToggle }) {
                             // Desktop Navs
                             <ul className="hidden lg:flex gap-8 px-[24px] ">
                                 {navs.map((navi, index) => (
-                                    <li key={index} className='text-[16px] text-grey hover:text-black cursor-pointer lg:text-[15px] xl:text-[19px] lg:gap-[1rem] hover:border-b-[3px] hover:border-green transition-all duration-200 ease-in-out '>{navi}</li>
+                                    <li key={index} className='text-[16px] text-grey hover:text-black cursor-pointer lg:text-[15px] 2xl:text-[20px] lg:gap-[1rem] hover:border-b-[3px] hover:border-green transition-all duration-200 ease-in-out '>{navi}</li>
                                 ))}
                             </ul>}
 

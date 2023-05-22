@@ -33,6 +33,13 @@ const courses = [
         pix: c4,
         reviewCount: 200
     },
+    {
+        title: "Social Media",
+        desc: "Various versions have evolved daf",
+        price: 550,
+        pix: c4,
+        reviewCount: 200
+    },
 
 
 

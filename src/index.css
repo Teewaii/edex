@@ -85,7 +85,7 @@
 
 .scroll::-webkit-scrollbar {
   width: 10px;
-  height:  5px;
+  height:  4px;
 }
 
 
@@ -93,13 +93,13 @@
 .scroll::-webkit-scrollbar-track {
   border-radius: 10px;
   background:#D2F0E7;
+  
 }
 
 /* Handle */
 .scroll::-webkit-scrollbar-thumb {
   background: #20B486;
   border-radius: 10px;
-  
 }
 body {
   margin: 0;
