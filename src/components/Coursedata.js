@@ -41,10 +41,6 @@ const courses = [
         reviewCount: 200
     },
 
-
-
-
-
 ]
 
 export default courses

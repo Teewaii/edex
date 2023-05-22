@@ -24,8 +24,8 @@ function CoursesCard({ title, desc, price, pix, reviewCount }) {
                 </span>
             </div>
             <div className="price flex items-center justify-between mt-4">
-                <h2 className='header4'>$ {price}</h2>
-                <span className='p-2 rounded-lg bg-white shadow-lg hover:bg-green group'><ArrowUpRightIcon className='w-6 text-grey group-hover:text-white' /></span>
+                <h2 className='header4'>${price}</h2>
+                <span className='p-2 rounded-lg bg-white shadow-lg hover:bg-green group'><ArrowUpRightIcon className='w-6 text-grey group-hover:text-white cursor-pointer' /></span>
             </div>
         </div>
     )

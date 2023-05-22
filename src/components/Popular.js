@@ -19,7 +19,7 @@ function Popular() {
     return (
         <section className="popular bg-Popgreen mt-12 py-12 lg:py-24">
             <div className="flex flex-col">
-                <div className="main_container flex flex-col items-center lg:flex-row lg:gap-24 lg:justify-between lg:pl-[6rem] 2xl:pl-[17rem]" >
+                <div className="main_container flex flex-col items-center lg:flex-row lg:gap-24 lg:justify-between lg:pl-[6rem] 2xl:pl-[17rem] relative" >
                     <div className='left_info  '>
                         <h4 className=' text-green header2 mb-8 max-w-[115px] lg:max-w-[200px] leading-9 md:mb-8  md:text-5xl lg:text-4xl 2xl:text-5xl lg:text-left lg:leading-[50px] lg:mb-[12px] relative'>
                             <span className='text-Herogreen'> Most</span> Popular
@@ -29,7 +29,9 @@ function Popular() {
                         </h4>
                     </div>
 
-                    <div ref={scrol} className="courses  flex flex-row gap-4 px-8 lg:px-0 w-[100%] py-8 scroll overflow-scroll  snap-x snap-mandatory  2xl:gap-8 transition-all ease-in-out delay-300  overflow-y-hidden lg:pr-[4rem]">
+                    <div ref={scrol} className="courses  flex flex-row gap-4 px-8 lg:px-0 w-[100%] py-8 scroll overflow-scroll  snap-x snap-mandatory  2xl:gap-8 transition-all ease-in-out delay-300  overflow-y-hidden lg:pr-[4rem] lg:pl-4
+                     after:absolute after:right-0 after:bg-gradient-to-l from-white after:w-24 after:inset-y-0 after:blur-md
+                    ">
 
                         {data.map(({ title, desc, price, pix, reviewCount }, index) =>
                             <div key={index} className="card shrink-0 snap-center max-w-[85%]   ">
