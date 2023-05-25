@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/edex/static/css/main.b3da9073.css",
-    "main.js": "/edex/static/js/main.10f4308a.js",
+    "main.css": "/edex/static/css/main.328e913f.css",
+    "main.js": "/edex/static/js/main.e920c659.js",
     "static/js/787.ed43bb07.chunk.js": "/edex/static/js/787.ed43bb07.chunk.js",
     "static/media/hero_pix.png": "/edex/static/media/hero_pix.f3533bdaa6e7ac73115e.png",
+    "static/media/archivevement_pix.png": "/edex/static/media/archivevement_pix.854f463a2fac7d67edc4.png",
     "static/media/course1.png": "/edex/static/media/course1.ba83cdad142d22c92b98.png",
     "static/media/instructor4.png": "/edex/static/media/instructor4.160da7ec9e061f52591c.png",
     "static/media/course4.png": "/edex/static/media/course4.0419099356b777b64c2f.png",
@@ -14,6 +15,7 @@
     "static/media/instructor3.png": "/edex/static/media/instructor3.44dbeb4f51c32f7ad68b.png",
     "static/media/course3.png": "/edex/static/media/course3.ece610132c3043b44097.png",
     "static/media/logo.svg": "/edex/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Frame4.svg": "/edex/static/media/Frame4.ed7e12bcc0e8681ec5389c29b7f6ed18.svg",
     "static/media/Graph.svg": "/edex/static/media/Graph.2fcb73ea7d1ad6189db0c831102a92db.svg",
     "static/media/Detective.svg": "/edex/static/media/Detective.b11912d297ee0e3d71b12a06dedc7873.svg",
     "static/media/PenNib.svg": "/edex/static/media/PenNib.25fa3c1676286fb8641269b7e9e0f995.svg",
@@ -25,17 +27,20 @@
     "static/media/Camera.svg": "/edex/static/media/Camera.ea157e954e46566208c7b20422bd4891.svg",
     "static/media/Heartbeat.svg": "/edex/static/media/Heartbeat.3c4e319d8661d54fe378af298826318e.svg",
     "static/media/Lock.svg": "/edex/static/media/Lock.838025f5202b9c492a00119f9b82e5fc.svg",
+    "static/media/Frame3.svg": "/edex/static/media/Frame3.a9d4944dcf8160a777f9da2233d7e643.svg",
     "static/media/Database.svg": "/edex/static/media/Database.e14987290809ec682923c123c18909a4.svg",
+    "static/media/Frame1.svg": "/edex/static/media/Frame1.327fdd0a52aab01623dd7d43da1cca3c.svg",
+    "static/media/Frame2.svg": "/edex/static/media/Frame2.3957b5c52c36868048719588a03c90f9.svg",
     "index.html": "/edex/index.html",
     "static/media/MusicNote.svg": "/edex/static/media/MusicNote.4d64341020a32c50f0c0731e16c13ce1.svg",
     "static/media/Vector 2.svg": "/edex/static/media/Vector 2.bdba66b86981768eec7a3a5496b34623.svg",
     "static/media/Ellipse 4.svg": "/edex/static/media/Ellipse 4.3212ede0398348c87f6c321d2a71d0ad.svg",
-    "main.b3da9073.css.map": "/edex/static/css/main.b3da9073.css.map",
-    "main.10f4308a.js.map": "/edex/static/js/main.10f4308a.js.map",
+    "main.328e913f.css.map": "/edex/static/css/main.328e913f.css.map",
+    "main.e920c659.js.map": "/edex/static/js/main.e920c659.js.map",
     "787.ed43bb07.chunk.js.map": "/edex/static/js/787.ed43bb07.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3da9073.css",
-    "static/js/main.10f4308a.js"
+    "static/css/main.328e913f.css",
+    "static/js/main.e920c659.js"
   ]
 }
