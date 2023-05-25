@@ -39,11 +39,6 @@ const Instructor = [
         pix: inst5,
         profession: "Photograpy Expert",
     },
-    {
-        name: "Patricia Lebsack",
-        pix: inst5,
-        profession: "Photograpy Expert",
-    },
 
 
 

@@ -7,6 +7,7 @@ import Modal from './components/Modal';
 import Popular from './components/Popular';
 import Categories from './components/Categories';
 import Instructors from './components/Instructors';
+import Archievements from './components/Archievements';
 export const ToggleContext = createContext(" ")
 
 
@@ -35,6 +36,7 @@ function App() {
       <Popular />
       <Categories />
       <Instructors />
+      <Archievements />
     </div>
   );
 }
