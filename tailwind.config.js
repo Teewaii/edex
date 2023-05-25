@@ -13,6 +13,7 @@ module.exports = {
         'Popgreen': '#E9F8F3',
         'yellow': '#FFC27A',
         'Darkyellow': '#CAA67B',
+        'Lightyellow': '#FFFAF5',
         'grey': '#889099',
         'blue': '#3461FD',
 

@@ -6,6 +6,7 @@ import Hero from './components/Hero';
 import Modal from './components/Modal';
 import Popular from './components/Popular';
 import Categories from './components/Categories';
+import Instructors from './components/Instructors';
 export const ToggleContext = createContext(" ")
 
 
@@ -33,7 +34,7 @@ function App() {
         handleToggle={handleToggle} />
       <Popular />
       <Categories />
-
+      <Instructors />
     </div>
   );
 }
