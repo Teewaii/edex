@@ -44,7 +44,7 @@ export default function Navbar({ toggle, handleToggle }) {
                             // Desktop Navs
                             <ul className="hidden lg:flex gap-8 px-[24px] ">
                                 {navs.map((navi, index) => (
-                                    <li key={index} className='text-[16px] text-grey hover:text-black cursor-pointer lg:text-[15px] 2xl:text-[20px] lg:gap-[1rem] hover:border-b-[3px] hover:border-green transition-all duration-200 ease-in-out '>{navi}</li>
+                                    <li key={index} className='text-[16px] text-grey hover:text-black cursor-pointer lg:text-[15px] 2xl:text-[18px] lg:gap-[1rem] hover:border-b-[3px] hover:border-green transition-all duration-200 ease-in-out '>{navi}</li>
                                 ))}
                             </ul>}
 

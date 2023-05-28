@@ -8,6 +8,7 @@ import Popular from './components/Popular';
 import Categories from './components/Categories';
 import Instructors from './components/Instructors';
 import Archievements from './components/Archievements';
+import Join from './components/Join';
 export const ToggleContext = createContext(" ")
 
 
@@ -37,6 +38,7 @@ function App() {
       <Categories />
       <Instructors />
       <Archievements />
+      <Join />
     </div>
   );
 }

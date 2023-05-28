@@ -25,7 +25,7 @@ function Hero() {
                     </span> Courses from <span className='text-green relative'>300
                             <span className='absolute inset-x-0 -bottom-[2px]'><img src={vec} alt="" /></span>
                         </span> Instructors & Institutions</p>
-                    <p className='body_L_600 px-4  text-grey lg:text-left lg:mb-[30px] lg:px-0 md:text-2xl lg:text-lg 2xl:text-xl lg:leading-5' >Various versions have evolved over the years, sometimes by accident,</p>
+                    <p className='text-md px-4  text-grey lg:text-left lg:mb-[30px] lg:px-0 md:text-2xl lg:text-lg 2xl:text-xl lg:leading-5' >Various versions have evolved over the years, sometimes by accident,</p>
                 </div>
 
                 <div className="search hidden lg:block w-[90%]">
