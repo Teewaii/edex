@@ -8,7 +8,7 @@ import Search from './Search';
 
 function Hero() {
     return (
-        <section className="hero flex flex-col items-start container lg:flex-row lg:gap-6 md:pt-4" >
+        <section className="hero flex flex-col items-start container lg:flex-row lg:py-6 lg:gap-6 md:pt-4" >
             <div className="search-mobile order-first w-full lg:hidden">
                 <Search />
             </div>

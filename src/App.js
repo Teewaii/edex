@@ -9,6 +9,7 @@ import Categories from './components/Categories';
 import Instructors from './components/Instructors';
 import Archievements from './components/Archievements';
 import Join from './components/Join';
+import Footer from './components/Footer';
 export const ToggleContext = createContext(" ")
 
 
@@ -39,6 +40,7 @@ function App() {
       <Instructors />
       <Archievements />
       <Join />
+      <Footer />
     </div>
   );
 }

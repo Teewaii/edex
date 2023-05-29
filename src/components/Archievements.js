@@ -18,7 +18,7 @@ function Archievements() {
                     <p className=' text-md md:text-lg 2xl:text-2xl 2xl:mt-4 text-grey mb-8'>Various versions have evolved over the years, sometimes by accident.</p>
                 </div>
                 <div className="bottom flex flex-col-reverse lg:flex-row lg:justify-between items-center">
-                    <div className="archievements mb-16 flex flex-col gap-6 lg:grid lg:grid-cols-2 lg:gap-[50px]       
+                    <div className="archievements mb-16 flex flex-col gap-6 md:grid md:grid-cols-2 lg:gap-[50px]       
         ">
                         {
 
