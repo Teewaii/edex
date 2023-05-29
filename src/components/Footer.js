@@ -55,7 +55,7 @@ function Footer() {
 
                     </ul>
                 </div>
-                <div className="subscribe text-sm col-span-2  md:col-span-1  text-left mb-8 flex flex-col lg:flex-1 2xl:text-xl">
+                <div className="subscribe text-sm col-span-2  md:col-span-1  text-left mb-8 flex flex-col lg:flex-1 2xl:text-xl lg:justify-start lg:items-start">
                     <h3 className='font-bold text-md md:text-xl 2xl:text-2xl'>Subscribe</h3>
                     <p className=' text-grey py-2 w-[85%] md:text-lg'>Lorem Ipsum has been them an industry printer took a galley make book.</p>
                     <input className='p-3  bg-gray-100 rounded-md my-4 focus:outline-none focus:ring-2 focus:ring-green lg:p-4' type="email" name="email" id="email" placeholder='Email here' />
