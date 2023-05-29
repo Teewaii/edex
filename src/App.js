@@ -32,16 +32,20 @@ function App() {
         toggle={toggle}
         handleToggle={handleToggle} />
       <Hero />
+
       <Modal
         toggle={toggle}
         handleToggle={handleToggle} />
-      <Popular />
-      <Categories />
-      <Instructors />
-      <Archievements />
-      <Join />
-      <Footer />
-    </div>
+      <div className={toggle ? "relative" : "fixed"}>
+
+        <Popular />
+        <Categories />
+        <Instructors />
+        <Archievements />
+        <Join />
+        <Footer />
+      </div>
+    </ div>
   );
 }
 

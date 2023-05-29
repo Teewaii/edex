@@ -11,20 +11,19 @@ function FeedbackCard({ name, title, pix, comment }) {
             <div className="top flex items-left gap-4 mb-6 ">
                 <img src={pix} className='w-12 rounded-full  2xl:w-16' alt="" />
                 <div className="title text-left">
-                    <h3 className="name font-bold text-md 2xl:text-2xl">
+                    <h3 className="name font-bold text-md md:text-lg 2xl:text-2xl">
                         {name}
                     </h3>
-                    <p className="text-xs 2xl:text-lg">
+                    <p className="text-xs md:text-lg 2xl:text-lg">
                         {title}
                     </p>
                 </div>
             </div>
             <div className="body text-left">
-                <p className='text-sm 2xl:text-lg' >{comment}
+                <p className='text-sm md:text-xl 2xl:text-lg' >{comment}
                 </p>
             </div>
         </div >
     )
 }
-
 export default FeedbackCard

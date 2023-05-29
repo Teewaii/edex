@@ -18,7 +18,7 @@ export default function Navbar({ toggle, handleToggle }) {
     return (
         <nav className=' border-b-[1px] border-gray-50 relative'>
             <div className="container ">
-                <div className="nav_container py-[14px] flex items-center justify-between lg:py-2 relative">
+                <div className="nav_container py-[14px] flex items-center justify-between md:py-6 relative">
                     <div className="logo w-[90px] md:w-[120px] cursor-pointer  ">
                         <img src={logo} alt='logo' />
                     </div>
@@ -28,12 +28,12 @@ export default function Navbar({ toggle, handleToggle }) {
                         {!toggle ?
 
                             // Mobile Navs
-                            <ul className="flex flex-col absolute top-20 w-full inset-x-0 py-4 gap-2 bg-green rounded-md lg:hidden  z-10 "  >
+                            <ul className="flex flex-col absolute top-20 w-full inset-x-0 py-4 gap-2 bg-green rounded-md lg:hidden md:top-40 z-10 "  >
                                 {navs.map((navi, index) => (
-                                    <li key={index} className='text-[18px] text-white border-b-2 border-Darkgreen border-opacity-25 py-[10px] last:border-b-0 hover:bg-yellow hover:text-white '>{navi}</li>
+                                    <li key={index} className='text-[18px] text-white border-b-2 border-Darkgreen border-opacity-25 py-[10px] last:border-b-0 hover:bg-yellow hover:text-white md:text-[24px] '>{navi}</li>
                                 ))}
 
-                                <div className="absolute top-[325px]  flex  gap-8 justify-center inset-x-0 w-full py-4 rounded-md bg-gray-100  lg:hidden">
+                                <div className="absolute top-[325px]  flex  gap-8 justify-center inset-x-0 w-full py-4 rounded-md bg-gray-100 md:top-[382px] lg:hidden">
                                     {/* <div className={toggle ? "absolute top-[320px]  flex  gap-8 justify-center inset-x-0 w-full py-4 rounded-md bg-gray-100 " : " users_desktop flex gap-6"}> */}
 
                                     <Login />
