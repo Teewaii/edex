@@ -10,6 +10,7 @@ import Instructors from './components/Instructors';
 import Archievements from './components/Archievements';
 import Join from './components/Join';
 import Footer from './components/Footer';
+import ScrollToTOp from './components/ScrollToTOp';
 export const ToggleContext = createContext(" ")
 
 
@@ -37,13 +38,13 @@ function App() {
         toggle={toggle}
         handleToggle={handleToggle} />
       <div className={toggle ? "relative" : "fixed"}>
-
         <Popular />
         <Categories />
         <Instructors />
         <Archievements />
         <Join />
         <Footer />
+        <ScrollToTOp />
       </div>
     </ div>
   );
