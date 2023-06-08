@@ -1,28 +1,27 @@
 import React from 'react';
-import { useContext } from 'react';
 import logo from '../img/logo.svg';
 import lock from '../img/Lock.svg';
 import { Bars3Icon } from '@heroicons/react/24/outline';
 import { XMarkIcon } from '@heroicons/react/24/outline';
-import Signup from './Signup';
+import Signup from './SignupButton';
 import Login from './Login';
-// import { ToggleContext } from '../App';
+import { Link } from 'react-router-dom';
 
 export default function Navbar({ toggle, handleToggle }) {
 
     // Navigation links
-    const navs = ["Home", "About", "Course", "Blog", "Contact"]
+    const navs = ["Home", "Course", "Categories", "Instrusctors", "Achievement"]
 
-    // const { toggle, handleToggle } = useContext(ToggleContext)
 
     return (
         <nav className=' border-b-[1px] border-gray-50 relative'>
             <div className="container ">
-                <div className="nav_container py-[14px] flex items-center justify-between md:py-6 relative">
-                    <div className="logo w-[90px] md:w-[120px] cursor-pointer  ">
-                        <img src={logo} alt='logo' />
-                    </div>
-
+                <div className="nav_container py-[14px] md:py-0 md:pt-[10px] flex items-center justify-between  relative">
+                    <a href="/">
+                        <div className="logo w-[90px] md:w-[120px] cursor-pointer  ">
+                            <img src={logo} alt='logo' />
+                        </div>
+                    </a>
                     {/* Navigation links */}
                     <div className="links py-4">
                         {!toggle ?
@@ -30,7 +29,7 @@ export default function Navbar({ toggle, handleToggle }) {
                             // Mobile Navs
                             <ul className="flex flex-col absolute top-20 w-full inset-x-0 py-4 gap-2 bg-green rounded-md lg:hidden md:top-40 z-10 "  >
                                 {navs.map((navi, index) => (
-                                    <li key={index} className='text-[18px] text-white border-b-2 border-Darkgreen border-opacity-25 py-[10px] last:border-b-0 hover:bg-yellow hover:text-white md:text-[24px] '>{navi}</li>
+                                    <li key={index} className='text-[18px] text-white border-b-2 border-Darkgreen border-opacity-25 py-[12px] bg-slate-600 last:border-b-0 hover:bg-yellow hover:text-white md:text-[24px] '><Link to="/">{navi}</Link></li>
                                 ))}
 
                                 <div className="absolute top-[325px]  flex  gap-8 justify-center inset-x-0 w-full py-4 rounded-md bg-gray-100 md:top-[382px] lg:hidden">

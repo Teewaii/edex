@@ -48,8 +48,8 @@ function Instructors() {
 
                 </div>
                 <div className="caret  mt-11 gap-4 flex justify-center w-[100%] lg:w-[75%] lg:relative  lg:justify-end   ">
-                    <ChevronLeftIcon onClick={scrollLeft} className="w-10 text-green hover:text-white hover:bg-green border-[1px] border-green  rounded-full p-2 2xl:w-12 cursor-pointer" />
-                    <ChevronRightIcon onClick={scrollRight} className="w-10 text-green hover:text-white hover:bg-green border-[1px] border-green rounded-full p-2  2xl:w-12 cursor-pointer" />
+                    <ChevronLeftIcon onClick={scrollLeft} className="w-10 text-green hover:text-white hover:bg-green border-[1px] border-green  rounded-full p-2 2xl:w-12 cursor-pointer transition-all ease-in-out duration-300" />
+                    <ChevronRightIcon onClick={scrollRight} className="w-10 text-green hover:text-white hover:bg-green border-[1px] border-green rounded-full p-2  2xl:w-12 cursor-pointer transition-all ease-in-out duration-300" />
                 </div>
 
             </div>

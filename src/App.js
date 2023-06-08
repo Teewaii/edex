@@ -11,7 +11,10 @@ import Archievements from './components/Archievements';
 import Join from './components/Join';
 import Footer from './components/Footer';
 import ScrollToTOp from './components/ScrollToTOp';
-export const ToggleContext = createContext(" ")
+import Signuppage from './components/Signuppage';
+import SignIn from './components/SignIn';
+import { BrowserRouter } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 
 function App() {
@@ -23,9 +26,6 @@ function App() {
 
   }
 
-  // <ToggleContext.Provider value={{ toggle, handleToggle }}>
-  //   <Navbar />
-  // </ToggleContext.Provider>
   return (
 
     <div className="App relative">
@@ -38,6 +38,7 @@ function App() {
         toggle={toggle}
         handleToggle={handleToggle} />
       <div className={toggle ? "relative" : "fixed"}>
+
         <Popular />
         <Categories />
         <Instructors />
@@ -45,6 +46,17 @@ function App() {
         <Join />
         <Footer />
         <ScrollToTOp />
+
+        <BrowserRouter>
+          <Routes>
+            <Route path='/signup' element={<Signuppage
+            />}>
+            </Route>
+            <Route path='/login' element={<SignIn
+            />}>
+            </Route>
+          </Routes>
+        </BrowserRouter>
       </div>
     </ div>
   );

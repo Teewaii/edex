@@ -3,6 +3,8 @@ import React from 'react';
 import { StarIcon } from '@heroicons/react/24/outline';
 import { ArrowUpRightIcon } from '@heroicons/react/24/outline';
 
+
+
 function CoursesCard({ title, desc, price, pix, reviewCount }) {
     const starIcons = [];
     for (let i = 0; i < 5; i++) {
@@ -10,7 +12,7 @@ function CoursesCard({ title, desc, price, pix, reviewCount }) {
     }
     return (
 
-        <div className='bg-white rounded-2xl p-3 md:p-4 pb-6 shadow-lg w-[250px]'>
+        <div className='bg-white rounded-2xl p-3 md:p-4 pb-6 shadow-lg w-[250px]  cursor-pointer hover:shadow-xl hover:bg-slate-100'>
 
             <div className="image flex flex-col mb-4 relative">
                 <span className='absolute text-md font-extrabold top-4 left-4 bg-white opacity-70 py-[5px] px-[12px] rounded-md'>{title}</span>

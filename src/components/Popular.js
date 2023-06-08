@@ -2,9 +2,10 @@ import React from 'react';
 import vec from '../img/Vector 2.svg';
 import CoursesCard from './CoursesCard';
 import data from './Coursedata';
-import { ChevronLeftIcon } from '@heroicons/react/24/solid'
-import { ChevronRightIcon } from '@heroicons/react/24/solid'
+import { ChevronLeftIcon } from '@heroicons/react/24/solid';
+import { ChevronRightIcon } from '@heroicons/react/24/solid';
 import { useRef } from "react";
+
 
 function Popular() {
     const scrol = useRef(null);
@@ -17,7 +18,7 @@ function Popular() {
     }
 
     return (
-        <section className="popular bg-Popgreen mt-12 py-12 md:mt-24 md:py-36 lg:py-24">
+        <section id='courses' className="popular bg-Popgreen mt-12 py-12 md:mt-24 md:py-36 lg:py-24">
             <div className="flex flex-col">
                 <div className="main_container flex flex-col items-center lg:flex-row lg:gap-24 lg:justify-between md:pl-[6rem] 2xl:pl-[17rem] relative" >
                     <div className='left_info  '>
@@ -33,7 +34,8 @@ function Popular() {
                     ">
 
                         {data.map(({ title, desc, price, pix, reviewCount }, index) =>
-                            <div key={index} className="card shrink-0 snap-center max-w-[85%]   ">
+                            <div key={index} className="card shrink-0 snap-center max-w-[85%] ">
+
                                 <CoursesCard
                                     title={title}
                                     desc={desc}
@@ -49,8 +51,8 @@ function Popular() {
 
                 </div>
                 <div className="caret  mt-11 gap-4 flex justify-center lg:justify-end   lg:w-[75%] lg:relative  ">
-                    <ChevronLeftIcon onClick={scrollLeft} className="w-10 text-green hover:text-white hover:bg-green border-[1px] border-green  rounded-full p-2 2xl:w-12 cursor-pointer" />
-                    <ChevronRightIcon onClick={scrollRight} className="w-10 text-green hover:text-white hover:bg-green border-[1px] border-green rounded-full p-2  2xl:w-12 cursor-pointer" />
+                    <ChevronLeftIcon onClick={scrollLeft} className="w-10 text-green hover:text-white hover:bg-green border-[1px] border-green  rounded-full p-2 2xl:w-12 cursor-pointer transition-all ease-in-out duration-300" />
+                    <ChevronRightIcon onClick={scrollRight} className="w-10 text-green hover:text-white hover:bg-green border-[1px] border-green rounded-full p-2  2xl:w-12 cursor-pointer transition-all ease-in-out duration-300" />
                 </div>
 
             </div>

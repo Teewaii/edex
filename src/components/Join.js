@@ -1,6 +1,7 @@
 import React from 'react';
 import teamImg from '../img/team.png'
-import Signup from './Signup';
+import Signup from './SignupButton';
+import SignupButton from './SignupButton';
 
 function Join() {
     return (
@@ -16,7 +17,7 @@ function Join() {
                         </h3>
                         <p className=' text-md text-left md:text-2xl 2xl:text-xl 2xl:mt-4'>Start learning by registering for free.</p>
                     </div>
-                    <Signup />
+                    <SignupButton />
                 </div>
 
             </div>

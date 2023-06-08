@@ -17,6 +17,11 @@ module.exports = {
         'grey': '#889099',
         'blue': '#3461FD',
 
+      },
+
+      backgroundImage: {
+        'SignUpbg': "url('../src/img/signup.png')",
+
       }
 
     },

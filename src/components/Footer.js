@@ -16,6 +16,7 @@ function Footer() {
     return (
         <section className="footer pt-20  pb-12 lg:py-24">
             <div className="main container grid grid-cols-2 md:grid-cols-3 gap-x-2 lg:flex  lg:justify-between lg:gap-24 lg:items-start">
+
                 <div className="address text-sm flex flex-col items-start text-left mt-8 order-8 col-span-2 lg:mt-0 lg:order-first lg:flex-1 2xl:text-xl">
                     <div className="logo flex w-16 2xl:w-24 mb-4">
                         <img src={logo} alt="" />
@@ -26,7 +27,7 @@ function Footer() {
                     <p className=' text-grey py-2 md:text-lg' >Email: example@mail.com</p>
                     <div className="socials flex items-center gap-2 md:text-lg ">
                         {socialIcons.map((icon, index) =>
-                            <div key={index} className="bg-Popgreen w-8 p-2 flex items-center justify-center rounded-md mt-4 hover:bg-Darkgreen">
+                            <div key={index} className="bg-Popgreen w-8 p-2 flex items-center justify-center rounded-md mt-4 hover:bg-Darkgreen cursor-pointer transition-all ease-in-out duration-300">
                                 <Link to='#'> <img src={icon} className='h-4' alt="icon" /></Link>
                             </div>
                         )}
@@ -37,7 +38,7 @@ function Footer() {
                     <h3 className='font-bold text-md mb-4 md:text-xl 2xl:text-2xl'>Explore</h3>
                     <ul className='text-grey flex flex-col gap-2 md:text-lg'>
                         {links.map(({ anc, url }, index) =>
-                            <li key={index}>
+                            <li className='cursor-pointer hover:text-green transition-all ease-in-out duration-300' key={index}>
                                 <Link to={url}>{anc}</Link>
                             </li>
                         )}
@@ -48,7 +49,7 @@ function Footer() {
                     <h3 className='font-bold text-md mb-4 md:text-xl 2xl:text-2xl'>Category</h3>
                     <ul className='  text-grey flex flex-col gap-2 md:text-lg '>
                         {categories.map((category, index) =>
-                            <li key={index}>
+                            <li className='cursor-pointer hover:text-green transition-all ease-in-out duration-300' key={index}>
                                 <Link to='/'>{category}</Link>
                             </li>
                         )}

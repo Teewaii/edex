@@ -8,13 +8,13 @@ import Search from './Search';
 
 function Hero() {
     return (
-        <section className="hero flex flex-col items-start container lg:flex-row lg:py-6 lg:gap-6 md:pt-4" >
+        <section id='hero' className="hero flex flex-col items-start container lg:flex-row lg:py-6 lg:gap-6 md:pt-4" >
             <div className="search-mobile order-first w-full lg:hidden">
                 <Search />
             </div>
             <div className="info flex flex-col md:pt-10  lg:py-16 2xl:py-28 lg:max-w-[50%] ">
 
-                <h4 className='header4 text-green pt-4 relative lg:text-2xl lg:text-left md:mb-[8px] '>START TO SUCCESS
+                <h4 className='text-md text-green pt-4 relative lg:text-2xl lg:text-left md:mb-[8px] '>START TO SUCCESS
                     <span className='absolute left-8 top-0 lg:left-0 lg:-top-8 w-6'><img src={star} alt="" /></span>
                     <span className='hidden lg:flex absolute top-0 right-[220px]'><img src={Ellipse} alt="" /></span>
                 </h4>
