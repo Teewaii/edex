@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/edex/static/css/main.0ecf1039.css",
-    "main.js": "/edex/static/js/main.e64e4262.js",
+    "main.css": "/edex/static/css/main.272a0f36.css",
+    "main.js": "/edex/static/js/main.9492cc28.js",
     "static/js/787.ed43bb07.chunk.js": "/edex/static/js/787.ed43bb07.chunk.js",
     "static/media/signup.png": "/edex/static/media/signup.283264e11b12bb6bf54c.png",
     "static/media/hero_pix.png": "/edex/static/media/hero_pix.f3533bdaa6e7ac73115e.png",
@@ -38,18 +38,17 @@
     "static/media/Database.svg": "/edex/static/media/Database.e14987290809ec682923c123c18909a4.svg",
     "static/media/Frame1.svg": "/edex/static/media/Frame1.327fdd0a52aab01623dd7d43da1cca3c.svg",
     "static/media/Frame2.svg": "/edex/static/media/Frame2.3957b5c52c36868048719588a03c90f9.svg",
-    "static/media/google.svg": "/edex/static/media/google.7c8869cbfb77319bc1df6de70180c9df.svg",
     "index.html": "/edex/index.html",
     "static/media/MusicNote.svg": "/edex/static/media/MusicNote.4d64341020a32c50f0c0731e16c13ce1.svg",
     "static/media/fb.svg": "/edex/static/media/fb.567c2f01fb1cc84339fc242b9296f635.svg",
     "static/media/Vector 2.svg": "/edex/static/media/Vector 2.bdba66b86981768eec7a3a5496b34623.svg",
     "static/media/Ellipse 4.svg": "/edex/static/media/Ellipse 4.3212ede0398348c87f6c321d2a71d0ad.svg",
-    "main.0ecf1039.css.map": "/edex/static/css/main.0ecf1039.css.map",
-    "main.e64e4262.js.map": "/edex/static/js/main.e64e4262.js.map",
+    "main.272a0f36.css.map": "/edex/static/css/main.272a0f36.css.map",
+    "main.9492cc28.js.map": "/edex/static/js/main.9492cc28.js.map",
     "787.ed43bb07.chunk.js.map": "/edex/static/js/787.ed43bb07.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ecf1039.css",
-    "static/js/main.e64e4262.js"
+    "static/css/main.272a0f36.css",
+    "static/js/main.9492cc28.js"
   ]
 }
