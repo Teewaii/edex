@@ -8,7 +8,7 @@ import Feedback from './Feedback';
 function Archievements() {
     return (
 
-        <section className="Archievements py-20 md:mt-0 md:py-36 lg:py-24">
+        <section id='Achievement' className="Achievements py-20 md:mt-0 md:py-36 lg:py-24">
 
             <div className="main_container container " >
                 <div className="top text-center flex flex-col lg:text-left ">

@@ -18,7 +18,7 @@ function Instructors() {
 
     }
     return (
-        <section className="Instructor bg-Popgreen mt-12 py-12 md:mt-0 md:py-36 lg:py-24">
+        <section id='Instructors' className="Instructor bg-Popgreen mt-12 py-12 md:mt-0 md:py-36 lg:py-24">
             <div className="flex flex-col">
                 <div className="main_container flex flex-col  items-start lg:justify-between md:pl-[6rem] 2xl:pl-[17rem] relative" >
                     <div className="top text-center flex flex-col  lg:text-left ">

@@ -5,7 +5,7 @@ import CatData from '../components/CatData'
 
 function Categories() {
     return (
-        <section className="header py-16 md:mt-0 md:py-36 lg:py-24 2xl:py-28">
+        <section id='Categories' className="header py-16 md:mt-0 md:py-36 lg:py-24 2xl:py-28">
             <div className="main container  ">
                 <div className="top text-center flex flex-col lg:text-left  ">
                     <h1 className='text-green header2 mb-2 md:mb-8  md:text-5xl leading-[40px] lg:text-4xl 2xl:text-5xl lg:text-left lg:leading-[50px] lg:mb-[12px] relative  '><span className='text-Herogreen '>Most </span>Popular Categories

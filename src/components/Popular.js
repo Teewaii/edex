@@ -18,7 +18,7 @@ function Popular() {
     }
 
     return (
-        <section id='courses' className="popular bg-Popgreen mt-12 py-12 md:mt-24 md:py-36 lg:py-24">
+        <section id='Course' className="popular bg-Popgreen mt-12 py-12 md:mt-24 md:py-36 lg:py-24">
             <div className="flex flex-col">
                 <div className="main_container flex flex-col items-center lg:flex-row lg:gap-24 lg:justify-between md:pl-[6rem] 2xl:pl-[17rem] relative" >
                     <div className='left_info  '>

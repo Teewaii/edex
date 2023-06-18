@@ -4,24 +4,24 @@ import lock from '../img/Lock.svg';
 import { Bars3Icon } from '@heroicons/react/24/outline';
 import { XMarkIcon } from '@heroicons/react/24/outline';
 import Signup from './SignupButton';
-import Login from './Login';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
+import Login from '../components/Login'
 
-export default function Navbar({ toggle, handleToggle }) {
+
+export default function Navbar({ toggle, handleToggle, setToggle }) {
 
     // Navigation links
-    const navs = ["Home", "Course", "Categories", "Instrusctors", "Achievement"]
+    const navs = ["Home", "Course", "Categories", "Instructors", "Achievement"]
 
 
     return (
         <nav className=' border-b-[1px] border-gray-50 relative'>
             <div className="container ">
                 <div className="nav_container py-[14px] md:py-0 md:pt-[10px] flex items-center justify-between  relative">
-                    <a href="/">
-                        <div className="logo w-[90px] md:w-[120px] cursor-pointer  ">
-                            <img src={logo} alt='logo' />
-                        </div>
-                    </a>
+
+                    <Link to="hero" className='logo w-[90px] md:w-[120px] cursor-pointer ' spy={true} smooth={true} offset={-50} duration={500} >
+                        <img src={logo} alt='logo' />
+                    </Link>
                     {/* Navigation links */}
                     <div className="links py-4">
                         {!toggle ?
@@ -43,7 +43,7 @@ export default function Navbar({ toggle, handleToggle }) {
                             // Desktop Navs
                             <ul className="hidden lg:flex gap-8 px-[24px] ">
                                 {navs.map((navi, index) => (
-                                    <li key={index} className='text-[16px] text-grey hover:text-black cursor-pointer lg:text-[15px] 2xl:text-[18px] lg:gap-[1rem] hover:border-b-[3px] hover:border-green transition-all duration-200 ease-in-out '>{navi}</li>
+                                    <li key={index} className='text-[16px] text-grey hover:text-black cursor-pointer lg:text-[15px] 2xl:text-[18px] lg:gap-[1rem] hover:border-b-[3px] hover:border-green transition-all duration-200 ease-in-out '><Link onClick={() => setToggle(true)} to={navi} spy={true} smooth={true} offset={-50} duration={500} >{navi} </Link></li>
                                 ))}
                             </ul>}
 

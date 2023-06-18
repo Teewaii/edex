@@ -8,8 +8,8 @@ import SignupBanner from './SignupBanner';
 
 function Signuppage() {
     return (
-        <section className="signup flex items-center justify-between  py-12  md:py-36 lg:py-24 h-[90%]">
-            <div className="main_form flex flex-col items-center container py-12 shrink-0 md:py-18 rounded-lg bg-white lg:w-[50%]">
+        <section className="signup flex items-center justify-center shadow-xl py-12 container  md:py-36 lg:py-24 h-[90%]">
+            <div className="main_form flex flex-col items-center  py-12 shrink-0 md:py-18 rounded-lg bg-white lg:w-[50%]">
                 <h1 className='header3 mb-4'>Sign Up</h1>
                 <div className="input w-[100%] ">
                     <form className='flex flex-col items-center gap-5 ' action="submit">
@@ -20,6 +20,7 @@ function Signuppage() {
                         <button type="submit" className='text-white px-[12px] py-[12px] w-[80%] font-bold text-sm md:text-xl rounded-[4px] bg-green  cursor-pointer hover:bg-Darkgreen transition-all ease-in-out duration-300 md:px-[18px] md:py-[14px] 2xl:py-[16px]  2xl:text-2xl '>Sign up</button>
                     </form>
                 </div>
+
                 <div className="bottom flex flex-col items-center">
                     <p className=' text-grey mt-4'>or <span className='text-green font-bold'>login</span>  to continue</p>
                     <div className="socials flex gap-2">
@@ -32,10 +33,10 @@ function Signuppage() {
                     </div>
                 </div>
             </div>
-            <div className='hidden w-[45%] bg-SignUpbg bg-cover  h-screen lg:flex'>
+            {/* <div className='hidden w-[45%] bg-SignUpbg bg-cover  h-screen lg:flex'>
                 <SignupBanner />
+            </div> */}
 
-            </div>
         </section>
     )
 }

@@ -11,10 +11,11 @@ import Archievements from './components/Archievements';
 import Join from './components/Join';
 import Footer from './components/Footer';
 import ScrollToTOp from './components/ScrollToTOp';
-import Signuppage from './components/Signuppage';
-import SignIn from './components/SignIn';
-import { BrowserRouter } from 'react-router-dom';
-import { Routes, Route } from 'react-router-dom';
+// import Signuppage from './components/Signuppage';
+// import SignIn from './components/SignIn';
+
+// import { BrowserRouter } from 'react-router-dom';
+// import { Routes, Route } from 'react-router-dom';
 
 
 function App() {
@@ -31,7 +32,8 @@ function App() {
     <div className="App relative">
       <Navbar
         toggle={toggle}
-        handleToggle={handleToggle} />
+        handleToggle={handleToggle}
+        setToggle={setToggle} />
       <Hero />
 
       <Modal
@@ -47,16 +49,6 @@ function App() {
         <Footer />
         <ScrollToTOp />
 
-        <BrowserRouter>
-          <Routes>
-            <Route path='/signup' element={<Signuppage
-            />}>
-            </Route>
-            <Route path='/login' element={<SignIn
-            />}>
-            </Route>
-          </Routes>
-        </BrowserRouter>
       </div>
     </ div>
   );
