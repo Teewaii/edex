@@ -29,7 +29,7 @@ export default function Navbar({ toggle, handleToggle, setToggle }) {
                             // Mobile Navs
                             <ul className="flex flex-col absolute top-20 w-full inset-x-0 py-4 gap-2 bg-green rounded-md lg:hidden md:top-40 z-10 "  >
                                 {navs.map((navi, index) => (
-                                    <li key={index} className='text-[18px] text-white border-b-2 border-Darkgreen border-opacity-25 py-[12px] bg-slate-600 last:border-b-0 hover:bg-yellow hover:text-white md:text-[24px] '><Link to="/">{navi}</Link></li>
+                                    <li key={index} className='anchor text-[18px] text-white border-b-2 border-Darkgreen border-opacity-25 pb-[12px] last:pb-0 last:border-b-0 hover:bg-yellow hover:text-white md:text-[24px] '><Link onClick={() => setToggle(true)} to={navi} spy={true} smooth={true} offset={-50} duration={500} >{navi} </Link></li>
                                 ))}
 
                                 <div className="absolute top-[325px]  flex  gap-8 justify-center inset-x-0 w-full py-4 rounded-md bg-gray-100 md:top-[382px] lg:hidden">
